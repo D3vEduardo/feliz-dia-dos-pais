@@ -1,91 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sacramento&display=swap');
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Para Dinomar.</title>
+</head>
+<body>
+    <div id="container">
+            <h1><span id="typing">Feliz dia dos <span class="text-gradient">pais!</span></span></h1>
+            <h3>Neste <span class="text-gradient">Dia dos Pais</span>, quero expressar o quanto senhor é <span class="text-gradient">especial</span> para mim. Estou verdadeiramente <span class="text-gradient">orgulhoso</span> de ser seu filho e sou grato por tudo o que senhor fez e continua fazendo por mim e por nossa família. Seu amor, apoio e dedicação são inestimáveis. Quero que senhor saiba o quanto eu <span class="text-gradient">te amo</span> e o quanto valorizo cada momento que passamos juntos.</h3>
+            <h2>Com carinho,</h2>
+            <h2 class="text-gradient agradecimento">Eduardo Augusto e família!</h2>
+    </div>
 
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #eef4ff;
-    overflow: hidden;
-    position: relative;
-}
-
-#container {
-    position: relative;
-    padding: 10px;
-    border-radius: 20px;
-    margin-top: 25vh;
-    width: auto; height: auto;
-    max-width: 50%;
-    background-color: #c7dcff;
-    text-align: center;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.1);
-    display: flex;
-    flex-direction: column;
-}
-
-h1, h2, h3 {font-family: "Poppins", sans-serif;}
-
-h1 {
-    font-weight: 900;
-    color: rgba(5,0,81,1);
-}
-
-@keyframes Typing {
-    50% {width: 10em;}
-    70% {width: 10em;}
-    100% {width: 0;}
-}
-
-@keyframes blink {
-    50% {border-color: transparent;}
-}
-
-#typing {
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: solid 3px;
-    animation: Typing 4s steps(10) infinite, blink 1s infinite step-end;
-    display: inline-block;
-    width: 0;
-}
-
-h2 {
-    text-align: left;
-    position: initial;
-    margin-right: 20%; margin-top: 15px;
-    font-size: 1.5rem;
-}
-
-.agradecimento {
-    margin-top: -5px;
-    font-size: 1.1rem;
-}
-
-.text-gradient {
-    background: linear-gradient(90deg, rgba(5,0,81,1) 0%, rgba(11,11,137,1) 35%, rgba(0,212,255,1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-@media (max-width: 769px) {
-    #container {max-width: 90%;}
-}
-
-.particle {
-    z-index: -1;
-    position: absolute;
-    font-size: 2rem;
-    pointer-events: none;
-    animation: float alternate infinite 3.5s;
-}
-
-@keyframes float {
-    from {transform: translateY(0) scale(1);opacity: 0.5;}
-    to {transform: translateY(-100px) scale(1.5);opacity: 1;}
-}
+    <div class="particle" style="top: 10%; left: 10%;">💙</div>
+    <div class="particle" style="top: 30%; left: 20%;">🩵</div>
+    <div class="particle" style="top: 50%; left: 30%;">💙</div>
+    <div class="particle" style="top: 70%; left: 40%;">🩵</div>
+    <div class="particle" style="top: 20%; left: 60%;">💙</div>
+    <div class="particle" style="top: 40%; left: 70%;">🩵</div>
+    <div class="particle" style="top: 60%; left: 80%;">💙</div>
+    <div class="particle" style="top: 80%; left: 90%;">🩵</div>
+</body>
+</html>
