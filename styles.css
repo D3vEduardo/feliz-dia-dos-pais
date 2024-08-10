@@ -29,8 +29,9 @@ body {
     flex-direction: column;
 }
 
+h1, h2, h3 {font-family: "Poppins", sans-serif;}
+
 h1 {
-    font-family: 'Poppins', sans-serif;
     font-weight: 900;
     color: rgba(5,0,81,1);
 }
