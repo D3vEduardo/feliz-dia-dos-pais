@@ -50,7 +50,7 @@ h1 {
     white-space: nowrap;
     overflow: hidden;
     border-right: solid 3px;
-    animation: Typing 4s steps(10) infinite, blink 1s infinite step-end;
+    animation: Typing 4s steps(13) infinite, blink 1s infinite step-end;
     display: inline-block;
     width: 0;
 }
